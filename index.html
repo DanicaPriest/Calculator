@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator </title>
+  <link href="https://fonts.googleapis.com/css?family=Iceberg" rel="stylesheet"> 
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div id="calcbody">
+    <h3>Danica's Calculator</h3>
+    <div id="screen"><p id="display">0<p><p id="equation"></p>
+      
+    </div>
+    <div id="buttons">
+    <button class="smlbtn" id="ac" onClick="clearAll()">AC
+    </button>
+    <button class="smlbtn" id="ce" onClick="backspace()">CE
+    </button>
+      <button class="smlbtn" id="rainbow" onClick="chngClr()">_
+    </button>
+    <button class="smlbtn" id="plus" onClick="addOp('+')">+
+    </button>
+      <button class="smlbtn" id="one" value="1" onClick="addNum(1)">1
+    </button>
+      <button class="smlbtn" id='2' onClick="addNum(2)">2
+    </button>
+      <button class="smlbtn" id="3" onClick="addNum(3)">3
+    </button>
+      <button class="smlbtn" id="minus" onClick="addOp('-')">-
+    </button>
+      <button class="smlbtn" id="4" onClick="addNum(4)">4
+    </button>
+      <button class="smlbtn" id='5' onClick="addNum(5)">5
+    </button>
+      <button class="smlbtn" id="6" onClick="addNum(6)">6
+    </button>
+    <button class="smlbtn" id="times" on onClick="addOp('*')">X
+    </button>
+      <button class="smlbtn"id='7' onClick="addNum(7)">7
+    </button>
+      <button class="smlbtn" id='8' onClick="addNum(8)">8
+    </button>
+      <button class="smlbtn" id='9' onClick="addNum(9)">9
+    </button>
+    <button class="smlbtn" id="divide" onClick="addOp('/')">/
+    </button>
+   <button class="smlbtn" onClick="addNum(0)">0
+    </button> <button class="smlbtn" onClick="addDecimal()">.
+    </button>
+    <button id="equals" onClick="calculate()">=
+    </button>
+      <div>
+    
+    
+    
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

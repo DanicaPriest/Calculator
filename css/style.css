@@ -1,0 +1,119 @@
+/*colors
+#cad3e7
+#e9deed
+#e8584a
+#ac3939
+#7d3636
+#522d2d
+*/
+body{background-image: url(https://www.transparenttextures.com/patterns/random-grey-variations.png);
+  background-color:#ac3939;
+}
+
+#calcbody{
+  background:#cad3e7;
+  height:500px;
+  width:400px;
+  margin: auto;
+  margin-top:80px;
+  border-radius: 20px;
+  color: #522d2d;
+  --screen-color:#e9deed;
+  --box-shadow-color:#522d2d;
+  
+box-shadow: 10px 10px 16px 3px rgba(0,0,0,0.7), inset 10px 10px 16px 1px rgba(255,255,255,.7) ;
+  border-left: 3px solid rgba(255,255,255,0.3);
+  border-top: 3px solid rgba(255,255,255,0.3);
+  border-right: 3px outset rgba(0, 0, 0, 0.7);
+  border-bottom: 3px outset rgba(0, 0, 0, 0.7);
+  font-family: 'Iceberg', cursive;
+}
+
+h3{
+  padding:2px;
+  text-align:center;
+  font-size:25px;
+}
+#screen{
+  
+  background: var(--screen-color);
+  height:80px;
+  width:300px;
+   margin: auto;
+  margin-top: -20px;
+  border-radius:10px;
+text-align:right;
+box-shadow: inset 1px 1px 13px -2px var(--box-shadow-color);
+  
+}
+p{
+  font-size:40px;
+  padding:5px;
+}
+#equation{
+  font-size:20px;
+  opacity: 0.7;
+  margin-top:-100px;
+}
+button{
+  color:var(--box-shadow-color);
+  border-color: var(--screen-color);
+  font-family: 'Iceberg', cursive; 
+}
+#buttons{
+  
+  width:300px;
+  height: 300px;
+  margin:auto;
+  padding:10px
+}
+.smlbtn{
+  width:20%;
+  height: 50px;
+  background:#e8584a;
+  display:inline-block;
+  margin:6px;
+  border-radius:10px;
+  text-align:center;
+  font-size: 40px;
+  color: var (--box-shadow-color);
+box-shadow: 3px 3px 4px 2px var(--box-shadow-color);
+  cursor:pointer;
+  border-color: var(--screen-color);
+  padding-bottom:5px;
+}
+.smlbtn:active, #equals:active{ 
+box-shadow: 1px 1px 2px 1px var(--box-shadow-color) ;
+
+  
+}
+#equals{ width:45%;
+  height: 50px;
+  background: linear-gradient(to top left, #7d3636 0%,#ac3939 20%, #e8584a 40%, #ac3939 70%, #7d3636 100%);
+  display:inline-block;
+  margin:6px;
+  border-radius:10px;
+  text-align:center;
+  font-size: 40px;
+  font-weight:bold;
+   
+   
+box-shadow: 3px 3px 4px 2px var(--box-shadow-color);
+  cursor:pointer;
+}
+#plus, #minus, #times, #divide{
+  background:#ac3939;
+  color:var(--screen-color);
+  border-color:var (--bow-shadow-color);
+}
+#ac, #ce{
+  background:#7d3636;
+  color:var(--screen-color);
+  font-size:35px;
+  padding:3px 5px 8px 5px;
+} 
+#rainbow{
+  background-image:url("https://s-media-cache-ak0.pinimg.com/originals/da/41/9b/da419b6361868d5414eb2677fc2ed082.gif");
+  background-size:cover;
+  color:rgba(104, 227, 197,0);
+}
